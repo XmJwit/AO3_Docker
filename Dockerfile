@@ -1,5 +1,3 @@
-LABEL org.opencontainers.image.authors="XmJwit"
-
 FROM alpine:latest
 
 RUN apt install nginx && ufw allow 'Nginx HTTP'
