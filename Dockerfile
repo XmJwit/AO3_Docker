@@ -1,6 +1,6 @@
 LABEL org.opencontainers.image.authors="XmJwit"
 
-FROM nginx
+FROM nginx:latest
 
 COPY nginx/* /etc/nginx/
 COPY ao3/* /usr/share/nginx/html/ao3/
